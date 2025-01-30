@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Header */
+header {
+    background-color: #3366cc;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Centered Content */
+.center-content {
+    margin-top: 50px;
+}
+
+/* Logo and Language Section */
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    margin: 0 20px;
+}
+
+.languages {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.languages.left {
+    text-align: right;
+}
+
+.languages.right {
+    text-align: left;
+}
+
+/* Search Bar */
+.search {
+    margin: 20px;
+}
+
+.search input {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.search button {
+    padding: 10px 15px;
+    background-color: #3366cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search button:hover {
+    background-color: #274b8a;
+}
+
+/* Footer */
+footer {
+    background-color: #3366cc;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
